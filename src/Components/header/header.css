@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+/* .container-fluid  {
+    padding: 0px 45px;
+} */
+
+header .headerSearch {
+    width: 100%;
+    height: 52px;
+    border: 1px solid #bce3c9;
+    padding: 10px 20px;
+}
+
+header .headerSearch .selectDropDown {
+    width: 18%;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+header .headerSearch .selectDropDown:after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background: rgba(0, 0, 0, 2);
+}
+
+header .headerSearch .search {
+    width: 82%;
+    padding-left: 30px;
+}
+
+
+header .headerSearch .search input {
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    outline: none !important;
+}
